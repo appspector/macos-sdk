@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
     s.platform         = :osx
     s.osx.deployment_target = '11.0'
     s.source           = { :http => 'https://github.com/appspector/macos-sdk/releases/download/1.4.8/AppSpectorOSXSDK.xcframework.zip' }
-    s.osx.vendored_frameworks = 'AppSpectorOSXSDK.framework'
+    s.osx.vendored_frameworks = 'AppSpectorOSXSDK.xcframework'
 end
